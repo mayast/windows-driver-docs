@@ -10,7 +10,22 @@ ms.localizationpriority: medium
 
 ## Usage
 
-**te.exe** \<[test\_binaries](#test_binaries)> \[[/appendWttLogging](#appendwttlogging)\] \[[/breakOnCreate](#breakoncreate)\] \[[/breakOnError](#breakonerror)\] \[[/breakOnInvoke](#breakoninvoke)\] \[[/coloredConsoleOutput](#coloredconsoleoutputtruefalse)\] \[ [/console:flushWrites](#consoleflushwrites)\] \[[/console:position=\[x,y | current\]](#consolepositionxy--current-) \[[/console:size=&lt;x,y&gt;\]](#consolesize-xy--current-) \[ [/console:topmost \]](#consoletopmost) [\[/defaultAppDomain\]](#defaultappdomain) \[[/disableConsoleLogging](#disableconsolelogging)\] \[[/disableTimeouts](#disabletimeouts)\] \[[/dpiaware](#dpiaware) \] \[[/enableWttLogging](#enablewttlogging)\] \[[/inproc](#inproc)\] \[[/isolationLevel](#isolationlevellevel)\] \[[/labMode](#labmode)\] \[[/list](#list)\] \[[/listProperties](#listproperties)\] \[[/logFile:&lt;name&gt;](#logfilename)\] \[[/logOutput:&lt;mode&gt;](#logoutputmode)\] \[[/miniDumpOnCrash](#minidumponcrash)\] \[[/miniDumpOnError](#minidumponerror)\] \[[/name:&lt;testname&gt;](#nametestname)\] \[[/outputFolder:&lt;folderName&gt;](#outputfolderfoldername)\] \[[/p:&lt;ParamName&gt;=&lt;ParamValue&gt;](#pparamnameparamvalue)\] \[[/parallel](#parallel)\] \[[/persistPictResults](#persistpictresults)\] \[[/pict:&lt;OptionName&gt;=&lt;OptionValue&gt;](#pictoptionnameoptionvalue)\] [\[/rebootStateFile\]](#rebootstatefile) \[[/reportLoadingIssue](#reportloadingissue)\] \[[/runas:&lt;RunAsType&gt;](#runasrunastype)\] \[[/runIgnoredTests](#runignoredtests)\] \[[/runon:&lt;MachineName&gt;](#runonmachinename)\] \[[/screenCaptureOnError](#screencaptureonerror)\] \[[/select:&lt;query&gt;](#selectquery)\] \[[/sessionTimeout:&lt;value&gt;](#sessiontimeoutvalue)\] \[[/stackFrameCount:&lt;value&gt;](#stackframecountvalue)\] \[[/stackTraceOnError](#stacktraceonerror)\] \[[/terminateOnFirstFailure](#terminateonfirstfailure)\] \[[/testDependencies:&lt;files&gt;](#testdependenciesfiles)\] \[[/testmode:Loop](#testmodeloop)\] \[[/testmode:Stress](#testmodestress)\] \[[/testTimeout:&lt;value&gt;](#testtimeoutvalue)\] \[[/unicodeOutput:&lt;true/false&gt;](#unicodeoutputtruefalse)\] [\[/version\]](#version) \[[/wttDeviceString:&lt;value&gt;](#wttdevicestringvalue)\] \[[/wttDeviceStringSuffix:&lt;value&gt;](#wttdevicestringsuffixvalue)\]
+**te.exe** \<[test\_binaries](#test_binaries)> \[[/appendWttLogging](#appendwttlogging)\] \[[/breakOnCreate](#breakoncreate)\] <br>
+\[[/breakOnError](#breakonerror)\] \[[/breakOnInvoke](#breakoninvoke)\] \[[/coloredConsoleOutput](#coloredconsoleoutputtruefalse)\] <br>
+\[ [/console:flushWrites](#consoleflushwrites)\] \[[/console:position=\[x,y | current\]](#consolepositionxy--current-) 
+\[[/console:size=&lt;x,y&gt;\]](#consolesize-xy--current-) \[ [/console:topmost \]](#consoletopmost) [\[/defaultAppDomain\]](#defaultappdomain) <br>
+\[[/disableConsoleLogging](#disableconsolelogging)\] \[[/disableTimeouts](#disabletimeouts)\] \[[/dpiaware](#dpiaware) \] \[[/enableWttLogging](#enablewttlogging)\] <br>
+\[[/inproc](#inproc)\] \[[/isolationLevel](#isolationlevellevel)\] \[[/labMode](#labmode)\] \[[/list](#list)\] \[[/listProperties](#listproperties)\] <br>
+\[[/logFile:&lt;name&gt;](#logfilename)\] \[[/logOutput:&lt;mode&gt;](#logoutputmode)\] \[[/miniDumpOnCrash](#minidumponcrash)\] <br>
+\[[/miniDumpOnError](#minidumponerror)\] \[[/name:&lt;testname&gt;](#nametestname)\] \[[/outputFolder:&lt;folderName&gt;](#outputfolderfold<br>ername)\] 
+\[[/p:&lt;ParamName&gt;=&lt;ParamValue&gt;](#pparamnameparamvalue)\] \[[/parallel](#parallel)\] \[[/persistPictResults](#persistpictresults)\] <br>
+\[[/pict:&lt;OptionName&gt;=&lt;OptionValue&gt;](#pictoptionnameoptionvalue)\] [\[/rebootStateFile\]](#rebootstatefile) <br>
+\[[/reportLoadingIssue](#reportloadingissue)\] \[[/runas:&lt;RunAsType&gt;](#runasrunastype)\] \[[/runIgnoredTests](#runignoredtests)\] <br>
+\[[/runon:&lt;MachineName&gt;](#runonmachinename)\] \[[/screenCaptureOnError](#screencaptureonerror)\] \[[/select:&lt;query&gt;](#selectquery)\] <br>
+\[[/sessionTimeout:&lt;value&gt;](#sessiontimeoutvalue)\] \[[/stackFrameCount:&lt;value&gt;](#stackframecountvalue)\] \[[/stackTraceOnError](#stacktraceonerror)\] <br>
+\[[/terminateOnFirstFailure](#terminateonfirstfailure)\] \[[/testDependencies:&lt;files&gt;](#testdependenciesfiles)\] \[[/testmode:Loop](#testmodeloop)\] <br>
+\[[/testmode:Stress](#testmodestress)\] \[[/testTimeout:&lt;value&gt;](#testtimeoutvalue)\] \[[/unicodeOutput:&lt;true/false&gt;](#unicodeoutputtruefalse)\] <br>
+[\[/version\]](#version) \[[/wttDeviceString:&lt;value&gt;](#wttdevicestringvalue)\] \[[/wttDeviceStringSuffix:&lt;value&gt;](#wttdevicestringsuffixvalue)\]
 
 ## Selection/Execution Commands
 
